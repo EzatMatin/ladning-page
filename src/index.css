@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    overflow-x: hidden;
+    background-color:#2e7e9e ;
+   
+}
+
+.landing-intro{
+    background-image:url(./assets/image\ 90.png);
+    background-size: cover;
+    
+}
+
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+
+}
+
+image {
+    font-size: 10px;
+}
+
+.paragraph {
+    text-align: right;
+
+}
+
+#vector {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    left: 0;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+#btn {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    font-family: 'inter', sans-serif;
+    width: 200px;
+}
+
+
+.btn1 {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+}
+
+.over {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.modalContainer {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2e7e9e;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.wrapper {
+    box-sizing: content-box;
+    height: 70px;
+    padding: 10px 30px;
+    display: flex;
+
+}
+
+span {
+    display: block;
+    height: 100%;
+    animation: spin-words 6s infinite;
+
+}
+
+@keyframes spin-words {
+    10% {
+        transform: translatey(-111%);
+
+    }
+
+    25% {
+        transform: translatey(-99%);
+    }
+
+    35% {
+        transform: translatey(-211%);
+
+    }
+
+    50% {
+        transform: translatey(-199%);
+
+    }
+
+    60% {
+        transform: translatey(-311%);
+
+    }
+
+    75% {
+        transform: translatey(-299%);
+
+    }
+
+    85% {
+        transform: translatey(-411%);
+
+    }
+
+    100% {
+        transform: translatey(-399%);
+
+    }
+}
+
+.refugee {
+    overflow: hidden;
+}
+
+
+
+
+@media (max-width:500px) {
+    .big-containe{
+        overflow-x:scroll;
+        width: 100vw;
+       
+    }
+      
+}  
+
+
+.containe{
+    position: relative;
+    min-width: 250px;
+}
+
+
+
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px #00000040;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    top:100%;
+    width: 250px;
+    height: 0;
+    transition: .5s ease;
+}
+
+.containe:hover .overlay{
+    top: 0;
+    height: 100%;
+}
+.text{
+    justify-content:center;
+    color:white;
+    font-size: 12px;
+    width: 90%;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+}
+
+.tex{
+
+    transform: translateY(-70px);
+    margin-left: 20px;
+    font-size: 18px;
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
