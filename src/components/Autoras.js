@@ -28,7 +28,7 @@ function Autoras() {
         <img src={Rectangle8} className=' mr-[150px] w-[50px] lg:w-[80px]' />
         <h1 className=' text-white text-2xl autoras lg:text-3xl'>AUTORAS</h1>
         <img src={Rectangle9} className='ml-[150px] w-[50px] lg:w-[80px]' />
-        <p className='text-center text-[14px] text-white mx-[60px] mt-3 lg:text-left w-[70%] lg:w-[60%]'>Contar histórias é provavelmente a mais poderosa ferramenta pedagógica. Contar para os outros as histórias do que aconteceu com essas mulheres refugiadas  e como elas se integraram em um novo país, no caso o Brasil, pode provocar nas pessoas um sentimento de solidariedade e de entendimento da importância de receber bem os refugiados.</p>
+        <p className='text-center text-[14px] text-white mx-[60px] mt-3 lg:text-left w-[70%] lg:w-[60%]'></p>
       </div>
       <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>
@@ -56,7 +56,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>AFEGNISTAO</h1>
             <h1 className='text-[#2378dc] ml-5'>MAHBOBA</h1>
-            <p className='text'>é uma fotógrafa profissional e escritora afegã. Ela faz parte de um grupo de nove afegãos que estão refugiados no Brasil atualmente.{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>Mahboba é uma fotógrafa profissional e escritora afegã. Ela faz parte de um grupo de nove afegãos que estão refugiados no Brasil atualmente.{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
@@ -72,7 +72,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>VENEZUELA</h1>
             <h1 className='text-[#2378dc] ml-5'>FRANCIS</h1>
-            <p className='text'>é venezuelana, formada no seu país de origem em Direito na Universidade Santa Maria e Administração no IUTA – PLC.{<a onClick={() => { setOpenModal5(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>Francis é venezuelana, formada no seu país de origem em Direito na Universidade Santa Maria e Administração no IUTA – PLC.{<a onClick={() => { setOpenModal5(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>
@@ -87,7 +87,7 @@ function Autoras() {
           <div className='w-[200px] h-[200px] overlay'>
             <h1 className=' text-white ml-5 mt-5'>MOCAMBIQUE</h1>
             <h1 className='text-[#2378dc] ml-5'>LARA</h1>
-            <p className='text'> é moçambicana. Veio para o Brasil, perseguindo um sonho de liberdade e respeito, fugindo da intolerância e da perseguição à comunidade LGBT em seu país.{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
+            <p className='text'>Lara é moçambicana. Veio para o Brasil, perseguindo um sonho de liberdade e respeito, fugindo da intolerância e da perseguição à comunidade LGBT em seu país.{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
           </div>
         </div>

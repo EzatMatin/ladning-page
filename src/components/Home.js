@@ -32,7 +32,7 @@ function Home() {
          
           <div className=' flex flex-row gap-10 mt-[100px]'>
             <img src={image5} style={{ width: 100 }} />
-            <button  className='text-white p-3' id='btn' ><a href='https://estourefugiado.org.br/kits-de-apoio/'> COMPRE AQUI </a></button>
+            <button  className='text-white p-3' id='btn' ><a href='mailto:colecao@estourefugiado.org.br'> COMPRE AQUI </a></button>
 
           </div>
         </div>
