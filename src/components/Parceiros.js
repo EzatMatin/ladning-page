@@ -18,7 +18,9 @@ function Parceiros() {
         <img src={Rectangle8} className=' mr-[200px] w-[50px] lg:w-[80px]' />
         <h1 className=' text-white text-2xl lg:text-3xl'>PARCEIROS</h1>
         <img src={Rectangle9} className='ml-[200px] w-[50px] lg:w-[80px]' />
-        <p className=' text-center text-white mt-[50px] lg:mx-[250px] text-[11px] lg:text-[14px] lg:w-[50%] w-[80%] '></p>
+        <p className=' text-center text-white mt-[50px] lg:mx-[250px] text-[11px] lg:text-[14px] lg:w-[50%] w-[80%] '>As histórias que elas contaram foram recolhidas,
+         traduzidas e editadas por Consuelo Dieguez,
+         Fernando Guimarães, Flavia Mantovani e Gisela Rao.</p>
         <div className='flex flex-row gap-[80px] lg:mt-[50px]'>
 
           <motion.img src={image5}

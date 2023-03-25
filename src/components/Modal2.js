@@ -26,10 +26,9 @@ function Modal2({ open, onClose }) {
           <button onClick={onClose} className="text-white pl-3 font-bold">x</button>
           <div className=' flex flex-col justify-center items-center'>
             <img src={Art} style={{ width: 150 }} />
-            <p className='  text-white p-[30px] text-center pt-[0] lg:pt-[50px] text-[14px]'>O Istituto Europeo di Design - IED/São Paulo e um  grupo de seus alunos, orientado pelo professor Fabio Silveira,
-             fez a concepção gráfica do livro, e contribui muito para o produto final do projeto. Ao longo de três meses, o time de alunos realizou encontros semanais para compreender o tema, pesquisar e discutir caminhos visuais para o projeto. Juntos, alunos e refugiados,
-               buscaram explorar alternativas no campo do layout das páginas, ilustração, tipografia e acabamentos gráficos.
-             O resultado surpreende e dialoga com os textos de realização e superação.</p>
+            <p className='  text-white p-[30px] text-center pt-[0] lg:pt-[50px] text-[14px]'>O projeto gráfico: IED
+
+O Istituto Europeo di Design - IED/São Paulo e um  grupo de seus alunos, orientado pelo professor Fabio Silveira, fez a concepção gráfica do livro, e contribui muito para o produto final do projeto. Ao longo de três meses, o time de alunos realizou encontros semanais para compreender o tema, pesquisar e discutir caminhos visuais para o projeto. Juntos, alunos e refugiados,  buscaram explorar alternativas no campo do layout das páginas, ilustração, tipografia e acabamentos gráficos. O resultado surpreende e dialoga com os textos de realização e superação.</p>
           </div>
 
         </div>

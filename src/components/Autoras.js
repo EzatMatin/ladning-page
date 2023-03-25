@@ -24,14 +24,16 @@ function Autoras() {
 
   return (
     <section className='flex flex-col justify-center items-center lg:h-screen pt-[10px]'>
-      <div className='flex flex-col justify-center items-center mt-[90px] '>
+      <div className='flex flex-col justify-center items-center mt-[60px] '>
         <img src={Rectangle8} className=' mr-[150px] w-[50px] lg:w-[80px]' />
         <h1 className=' text-white text-2xl autoras lg:text-3xl'>AUTORAS</h1>
         <img src={Rectangle9} className='ml-[150px] w-[50px] lg:w-[80px]' />
-        <p className='text-center text-[14px] text-white mx-[60px] mt-3 lg:text-left w-[70%] lg:w-[60%]'>Contar histórias é provavelmente 
-        a mais poderosa ferramenta pedagógica. Contar para os outros as histórias do que aconteceu com essas mulheres ref
-        ugiadas  e como elas se integraram em um novo país, no caso o Brasil, pode provocar nas pessoas um sentimento de so
-        lidariedade e de entendimento da importância de receber bem os refugiados.</p>
+        <p className='text-center text-white mt-[50px] lg:mx-[250px] text-[11px] lg:text-[14px] lg:w-[50%] w-[80%]'>São vozes firmes e destemidas, trazendo relatos ora dramáticos, ora tristes, ora engraçados, mas sempre sinceros e tocantes.
+   
+                    Como a voz de Mahboba Rezayi, professora de literatura dari, a língua persa falada no Afeganistão,
+                     pela Universidade de Herat, importante centro econômico e religioso situado no oeste do país, que não hesitou em enfrentar a violência do regime implantado em seu país pelo grupo talibã e a distância – quase 14 mil quilômetros! – até o nosso país para conquistar a liberdade e o respeito que merece.
+                    
+                      “Da maioria das casas, vinham gritos altos. Pouco depois, minha mãe nos levou para nossa casa, onde, como nas demais casas, os suprimentos haviam sido roubados e reuniu-se com outras mulheres e alguns homens. Ouvimos notícias de muitos dos nossos vizinhos, alguns tinham sido mortos, outros estavam feridos. Quanto ao meu pai, alguém contou que o Talibã o tinha aprisionado junto com muitos outros.”</p>
       </div>
       <div className='flex flex-row space-x-3 justify-between items-center mt-8 big-containe'>
         <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='containe w-screen lg:w-full md:w-full '>

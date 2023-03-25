@@ -28,11 +28,21 @@ function Home() {
             </h1>
           </div>
           
-          <p className=' w-[200px] lg:w-[430px] text-center text-[12px] lg:text-[14px] text-white md:text-right lg:text-right ml-[100px] mr-[100px]'>A Coleção Estou Refugiado nasceu para contar histórias sobre a luta, as dores e as alegrias das pessoas em situação de refúgio no Brasil. O objetivo é apresentar principalmente a crianças e adolescentes brasileiros – a distribuição dos livros da Coleção privilegia alunos de escolas públicas e privadas – a realidade dessas pessoas que vieram para o nosso país em busca de mais qualidade de vida, mais liberdade, e dignidade.<br /><br />Para o primeiro livro da Coleção, foram escolhidas histórias de refugiadas.</p>
+                    <p className=' w-[200px] lg:w-[430px] text-center text-[12px] lg:text-[14px] text-white md:text-right lg:text-right ml-[100px] mr-[100px]'>
+                          A Coleção Estou Refugiado reúne uma série de obras desenvolvidas pelo Instituto Estou Refugiado,
+                          com o objetivo de trazer à luz os dramas e as alegrias,
+                            a realidade e os sonhos desses seres humanos que chegam ao Brasil em busca de melhores condições de vida,
+                            mas principalmente de liberdade e de dignidade.
+        
+                            Não por acaso este livro de estreia da Coleção reúne apenas vozes femininas.
+                              Porque acreditamos que é feminina a principal força motriz da sobrevivência dos grupos de refugiados.
+                              Uma força de onde ao mesmo tempo emana uma sensibilidade capaz de reunir em suas vozes as aspirações dos demais,
+                                em suas histórias o passado, o presente e o futuro de todos.
+                    </p>
          
           <div className=' flex flex-row gap-10 mt-[100px]'>
             <img src={image5} style={{ width: 100 }} />
-            <button  className='text-white p-3' id='btn' ><a href='mailto:colecao@estourefugiado.org.br'> COMPRE AQUI </a></button>
+            <button  className='text-white p-3' id='btn' ><a href='mailto:colecao@estourefugiado.org.br'> PRÉ VENDA </a></button>
 
           </div>
         </div>
