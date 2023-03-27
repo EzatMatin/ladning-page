@@ -30,7 +30,7 @@ function Autoras() {
         <img src={Rectangle9} className='ml-[150px] w-[50px] lg:w-[80px]' />
         <p className='text-center text-white mt-[50px] lg:mx-[250px] text-[11px] lg:text-[14px] lg:w-[50%] w-[80%]'>São vozes firmes e destemidas, trazendo relatos ora dramáticos, ora tristes, ora engraçados, mas sempre sinceros e tocantes.
    
-                    Como a voz de Mahboba Rezayi, professora de literatura dari, a língua persa falada no Afeganistão,
+                    Como a vo de Mahboba Rezayi, professora de literatura dari, a língua persa falada no Afeganistão,
                      pela Universidade de Herat, importante centro econômico e religioso situado no oeste do país, que não hesitou em enfrentar a violência do regime implantado em seu país pelo grupo talibã e a distância – quase 14 mil quilômetros! – até o nosso país para conquistar a liberdade e o respeito que merece.
                     
                       “Da maioria das casas, vinham gritos altos. Pouco depois, minha mãe nos levou para nossa casa, onde, como nas demais casas, os suprimentos haviam sido roubados e reuniu-se com outras mulheres e alguns homens. Ouvimos notícias de muitos dos nossos vizinhos, alguns tinham sido mortos, outros estavam feridos. Quanto ao meu pai, alguém contou que o Talibã o tinha aprisionado junto com muitos outros.”</p>
