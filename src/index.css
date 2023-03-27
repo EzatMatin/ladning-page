@@ -153,6 +153,20 @@ span {
         width: 100vw;
        
     }
+    .modalContainer{
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+
+    .patracinador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        margin: 0;
+     
+    }
       
 }  
 

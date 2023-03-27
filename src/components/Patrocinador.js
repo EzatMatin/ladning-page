@@ -12,7 +12,7 @@ function Patrocinador() {
         <h1 className='text-white text-2xl lg:text-3xl'>PATROCINADOR</h1>
         <img src={Rectangle9} className='ml-[250px] w-[50px] lg:w-[80px] ' />
 
-        <div className='lg:flex flex-row mt-10 gap-[30px] lg:ml-[150px]  '>
+        <div className='lg:flex flex-row mt-10 gap-[30px] lg:ml-[150px] patracinador '>
           <img src={Ellipse2} className='lg:ml-[5%]' />
           <p className='text-[#fff] text-center lg:text-left w-[30%] lg:w-[440px] float-right text-[14px] pt-[20px] lg:pt-10'>
               Presente no mercado desde 1940, a Eternit é líder de mercado no segmento de coberturas, com atuação nos segmentos de louças, metais sanitários e soluções construtivas. Conta com cerca de 2.500 colaboradores diretos e indiretos (em todas as unidades da Eternit e suas controladas), 8 fábricas próprias, 5 filiais de vendas, além de cerca de 15 mil revendedores por todo o Brasil. Saiba mais em <a href='www.eternit.com.br'>www.eternit.com.br</a> </p>
