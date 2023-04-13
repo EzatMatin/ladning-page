@@ -31,9 +31,7 @@ function Parceiros() {
           <Modal open={openModal} onClose={() => setOpenModal(false)} />
 
 
-          <img src={Art} style={{ width: 150 }} onClick={() => {
-            setOpenModal2(true)
-          }} />
+          <img src={Art} style={{ width: 150 }} onClick={() => {setOpenModal2(true)}} />
 
           <Modal2 open={openModal2} onClose={() => setOpenModal2(false)} />
 

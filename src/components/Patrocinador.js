@@ -18,7 +18,7 @@ function Patrocinador() {
               Presente no mercado desde 1940, a Eternit é líder de mercado no segmento de coberturas, com atuação nos segmentos de louças, metais sanitários e soluções construtivas. Conta com cerca de 2.500 colaboradores diretos e indiretos (em todas as unidades da Eternit e suas controladas), 8 fábricas próprias, 5 filiais de vendas, além de cerca de 15 mil revendedores por todo o Brasil. Saiba mais em <a href='www.eternit.com.br'>www.eternit.com.br</a> </p>
         </div>
         <div className='flex flex-col justify-center items-center'>
-          <button className='text-white p-3 lg:mt-10 mt-10' id='btn'><a href='mailto:colecao@estourefugiado.org.br'> PRÉ VENDA </a></button>
+          <button className='text-white p-3 lg:mt-10 mt-10' id='btn'><a href='https://pag.ae/7Zh32We4u'> PRÉ VENDA </a></button>
           <button className='p-4 w-[700px] text-white lg:w-[500px] mb-0 btn1 mt-5  '> 2023 © estou refugiado ONG
             <br />Powered By: Tomorrow Byte
           </button>
