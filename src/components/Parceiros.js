@@ -13,7 +13,7 @@ function Parceiros() {
   const [openModal, setOpenModal] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
   return (
-    <section className='flex flex-col justify-center items-center lg:h-screen h-[100vh] pt-[120px]'>
+    <section className='flex flex-col justify-center items-center lg:h-screen h-[50vh] pt-[50px]'>
       <div className=' flex flex-col justify-center items-center'>
         <img src={Rectangle8} className=' mr-[200px] w-[50px] lg:w-[80px]' />
         <h1 className=' text-white text-2xl lg:text-3xl'>PARCEIROS</h1>

@@ -40,11 +40,11 @@ function Autoras() {
           <Modal4 open={openModal4} onClose={() => setOpenModal4(false)} />
           <img src={natalia} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
-            <h1 className='text-white'>UCRANIA</h1>
+            <h1 className='text-white'>UCRÂNIA</h1>
             <h1 className='text-[#2378dc]'>NATALIA</h1>
           </div>
           <div className='w-[200px] h-[200px] overlay'>
-            <h1 className=' text-white ml-5 mt-5'>UCRANIA</h1>
+            <h1 className=' text-white ml-5 mt-5'>UCRÂNIA</h1>
             <h1 className='text-[#2378dc] ml-5'>NATALIA</h1>
             <p className='text'>Natalia Moroz é ucraniana, formada em línguas pelo Instituto Pedagógico de Línguas Estrangeiros de Donbass. Ela chegou recentemente ao Brasil com seu filho,{<a onClick={() => { setOpenModal4(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
@@ -55,11 +55,11 @@ function Autoras() {
           <Modal3 open={openModal3} onClose={() => setOpenModal3(false)} />
           <img src={mahboba} className='w-[250px] h-[300px]'/>
           <div className=' absolute tex'>
-            <h1 className='text-white'>AFEGNISTAO</h1>
+            <h1 className='text-white'>AFEGANISTÃO</h1>
             <h1 className='text-[#2378dc]'>MAHBOBA</h1>
           </div>
           <div className='w-[200px] h-[200px] overlay'>
-            <h1 className=' text-white ml-5 mt-5'>AFEGNISTAO</h1>
+            <h1 className=' text-white ml-5 mt-5'>AFEGANISTÃO</h1>
             <h1 className='text-[#2378dc] ml-5'>MAHBOBA</h1>
             <p className='text'>Mahboba é uma fotógrafa profissional e escritora afegã. Ela faz parte de um grupo de nove afegãos que estão refugiados no Brasil atualmente.{<a onClick={() => { setOpenModal3(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
@@ -86,11 +86,11 @@ function Autoras() {
           <Modal6 open={openModal6} onClose={() => setOpenModal6(false)} />
           <img src={lara} className='w-[250px] h-[300px]' />
           <div className=' absolute tex'>
-            <h1 className='text-white'>MOCAMBIQUE</h1>
+            <h1 className='text-white'>MOÇAMBIQUE</h1>
             <h1 className='text-[#2378dc]'>LARA</h1>
           </div>
           <div className='w-[200px] h-[200px] overlay'>
-            <h1 className=' text-white ml-5 mt-5'>MOCAMBIQUE</h1>
+            <h1 className=' text-white ml-5 mt-5'>MOÇAMBIQUE</h1>
             <h1 className='text-[#2378dc] ml-5'>LARA</h1>
             <p className='text'>Lara é moçambicana. Veio para o Brasil, perseguindo um sonho de liberdade e respeito, fugindo da intolerância e da perseguição à comunidade LGBT em seu país.{<a onClick={() => { setOpenModal6(true) }} className='cursor-pointer'>saiba mais</a>} </p>
 
